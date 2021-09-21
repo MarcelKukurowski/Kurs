@@ -1,11 +1,10 @@
 import math
-a = input("Podaj a")
-b = input("Podaj b")
-c = input("Podaj c")
+import sys
+print(sys.argv)
 
-a = int(a)
-b = int(b)
-c = int(c)
+a = int(sys.argv[1])
+b = int(sys.argv[2])
+c = int(sys.argv[3])
 
 delta = math.pow(b,2)-(4*a*c)
 
